@@ -32,13 +32,13 @@
           <!-- dropdown -->             
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Plots
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Max Temperature</a></li>
-              <li><a class="dropdown-item" href="#">Humidity</a></li>
-              <li><a class="dropdown-item" href="#">Cloudiness</a></li>
-              <li><a class="dropdown-item" href="#">Wind Speed</a></li>
+              <li><a class="dropdown-item" href="plot_maxtemp.html">Max Temperature</a></li>
+              <li><a class="dropdown-item" href="plot_humid.html">Humidity</a></li>
+              <li><a class="dropdown-item" href="plot_cloud.html">Cloudiness</a></li>
+              <li><a class="dropdown-item" href="plot_wind.html">Wind Speed</a></li>
             </ul>
           </li>
           <!-- comparison -->  
@@ -60,17 +60,26 @@
     <div class="row">
         <div class="col-md-8">
           <h1>Summary: Latitude vs. X</h1>
-          <img src="Resources/assets/images/Fig1.png" alt="City Lat vs. Max Temp" style="float:left;width:400px;height:300px;">
+          <hr/>
+          <img src="Resources/assets/images/Fig_max_temp.png" alt="City Lat vs. Max Temp" style="float:left;width:400px;height:300px;">
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
           <p>After assembling the dataset, we used MatplotLib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. The site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
         </div>
         <div class="col-md-4">
           <h1>Visualizations</h1>
           <hr/>
-          <img src="Resources/assets/images/Fig1.png" alt="City Lat vs. Max Temp" width="175" height="125">
-          <img src="Resources/assets/images/Fig2.png" alt="City Lat vs. Max Temp" width="175" height="125">
-          <img src="Resources/assets/images/Fig3.png" alt="City Lat vs. Max Temp" width="175" height="125">
-          <img src="Resources/assets/images/Fig4.png" alt="City Lat vs. Max Temp" width="175" height="125">
+            <a href="plot_maxtemp.html">
+              <img src="Resources/assets/images/Fig_max_temp.png" alt="City Lat vs. Max Temp" style="width:175px;height: 125px;px">
+            </a>
+            <a href="plot_humid.html">
+              <img src="Resources/assets/images/Fig_humid.png" alt="City Lat vs. Humidity" style="width:175px;height: 125px;px">
+            </a>
+            <a href="plot_cloud.html">
+              <img src="Resources/assets/images/Fig_cloud.png" alt="City Lat vs. Cloudiness" style="width:175px;height: 125px;px">
+            </a>
+            <a href="plot_wind.html">
+              <img src="Resources/assets/images/Fig_wind.png" alt="City Lat vs. Wind Speed" style="width:175px;height: 125px;px">
+            </a>  
         </div>
       </div>
 
