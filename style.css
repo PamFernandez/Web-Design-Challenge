@@ -1,12 +1,14 @@
 /* style page for Pam Fernandezes Web Design Homework - Web Visualization Dashboard (Latitude) */
 
+.navbar-light .navbar-brand {
+    color: white;
+}
 
 .navbar-brand {
     font-family: 'Times New Roman', Times, serif;
     background-color: cadetblue;
     padding: 20px;
     margin-left: 20px;
-    color: white;
 }
 
 .vs_plot {
